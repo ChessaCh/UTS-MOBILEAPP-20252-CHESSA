@@ -34,7 +34,7 @@ class ProductsPage extends StatelessWidget {
         ),
         actions: [
           IconButton(
-            icon: const Icon(Icons.shopping_cart, color: Colors.white),
+            icon: const Icon(Icons.person, color: Colors.white),
             onPressed: () {
               Navigator.push(
                 context,
@@ -129,13 +129,12 @@ class ProductsPage extends StatelessWidget {
                           onPressed: () {
                             ScaffoldMessenger.of(context).showSnackBar(
                               SnackBar(
-                                width:double.infinity,
                                 content: Text(
                                   'Purchased ${product['name']}',
                                   style: const TextStyle(color: Colors.white),
                                 ),
-                                backgroundColor: Colors.black,
-                                behavior: SnackBarBehavior.floating,
+                                backgroundColor: const Color.fromARGB(255, 37, 37, 37),
+                                behavior: SnackBarBehavior.fixed,
                               ),
                             );
                           },

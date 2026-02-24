@@ -77,8 +77,8 @@ class _LoginPageState extends State<LoginPage> {
                           color: Color(0xFF7A4E7F),
                           fontSize: 14,
                         ),
-                        border: const OutlineInputBorder(),
-                        focusedBorder: const OutlineInputBorder(
+                        border: const UnderlineInputBorder(),
+                        focusedBorder: const UnderlineInputBorder(
                           borderSide: BorderSide(
                             color: Color(0xFF7A4E7F),
                             width: 2.0,
@@ -101,8 +101,8 @@ class _LoginPageState extends State<LoginPage> {
                           color: Color(0xFF7A4E7F),
                           fontSize: 14,
                         ),
-                        border: const OutlineInputBorder(),
-                        focusedBorder: const OutlineInputBorder(
+                        border: const UnderlineInputBorder(),
+                        focusedBorder: const UnderlineInputBorder(
                           borderSide: BorderSide(
                             color: Color(0xFF7A4E7F),
                             width: 2.0,
